@@ -27,6 +27,11 @@ body {
       text-transform: uppercase;
       margin: 0;
   }
+
+  #name{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+
   h3 {
       font-size: 2.4em;
       font-weight: 300;
@@ -53,6 +58,18 @@ body {
   }
   ul {
       clear:both;
+  }
+  .content{
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  .subhead{
+      font-size: 29px;
+  }
+  .contributors{
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  .link:hover{
+      color: aqua;
   }
   
   
