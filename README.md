@@ -10,6 +10,8 @@ You can edit the code and add your name in "The people Who contributed" section 
 
 ## Getting Started
 
+* Note : Create issue first or Work on created issue 
+
 1. Fork this repository
 2. Run `git clone [your repo url goes here]`
 3. CD into your cloned repo
