@@ -1,6 +1,6 @@
 # Hacktoberfest 2021
 <div align="center">
-  <img src="https://hacktoberfest.digitalocean.com/_nuxt/img/logo-hacktoberfest-full.f42e3b1.svg" />
+  <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fgithub.com%2Ftopics%2Fhacktoberfest&psig=AOvVaw2TpqI4-HIcnRHgoplNb01I&ust=1664169272767000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCMjbmuSXr_oCFQAAAAAdAAAAABAE" />
   </div>
 Follow the README below to get started!
 # Introduction-webpage
