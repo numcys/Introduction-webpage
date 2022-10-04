@@ -262,3 +262,7 @@ img {
     margin-right: 120px;
   }
 }
+
+.profile{
+  border-radius: 50%;
+}
