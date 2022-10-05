@@ -16,6 +16,22 @@ body {
   color: #eee;
   color: rgba(255, 255, 255, 0.85);
 }
+html {
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  width: 15px;
+}
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #fff;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #1d2d44;
+}
 #container {
   padding-top: 50px;
 }
@@ -265,4 +281,111 @@ img {
 
 .profile{
   border-radius: 50%;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+.wrapper .button {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  float: left;
+  margin: 0 5px;
+  overflow: hidden;
+  background: #fff;
+  border-radius: 50px;
+  cursor: pointer;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-out;
+}
+
+.wrapper .button .icon {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  border-radius: 40px;
+  box-sizing: border-box;
+  line-height: 40px;
+  transition: all 0.3s ease-out;
+}
+
+.wrapper .button:nth-child(1):hover .icon {
+  background: #0077b5;
+}
+
+.wrapper .button:nth-child(2):hover .icon {
+  background: #333;
+}
+
+.wrapper .button:nth-child(3):hover .icon {
+  background: #4267b2;
+}
+
+.wrapper .button:nth-child(4):hover .icon {
+  background: #1da1f2;
+}
+
+.wrapper .button:nth-child(5):hover .icon {
+  background: #e1306c;
+}
+
+.wrapper .button .icon i {
+  font-size: 25px;
+  line-height: 40px;
+  transition: all 0.3s ease-out;
+}
+
+.wrapper .button:hover .icon i {
+  color: #fff;
+}
+
+.wrapper .button:nth-child(1) a {
+  color: #0077b5;
+}
+
+.wrapper .button:nth-child(2) a {
+  color: #333;
+}
+
+.wrapper .button:nth-child(3) a {
+  color: #4267b2;
+}
+
+.wrapper .button:nth-child(4) a {
+  color: #1da1f2;
+}
+
+.wrapper .button:nth-child(5) a {
+  color: #e1306c;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px 23px;
+  color: #fff;
+}
+
+footer span .author {
+  color:burlywood;
+  font-weight: 600;
+}
+
+footer span i {
+  transition: all 0.3s ease;
+  color: #fff;
+}
+
+footer span i:hover {
+  color: red;
+  transform: scale(1.2);
 }
