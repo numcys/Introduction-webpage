@@ -200,7 +200,8 @@ body {
   margin-right: 30px;
 }
 img {
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .inner-box {
   display: flex;
@@ -224,7 +225,6 @@ img {
 }
 /* PYRAMID CODE */
 .stage {
-  -webkit-transform: scale(1.85);
   transform: scale(0.85);
   float: right;
   margin-right: 120px;
@@ -242,16 +242,12 @@ img {
   position: relative;
   width: 150px;
   height: 150px;
-
-  -webkit-transform-style: preserve-3d;
   transform-style: preserve-3d;
-  -webkit-transform: rotateX(75deg) rotate(65deg);
   transform: rotateX(75deg) rotate(65deg);
   -webkit-animation: turnPyramid 10s linear infinite;
   animation: turnPyramid 10s linear infinite;
 }
 .triangle {
-  -webkit-transform-style: preserve-3d;
   transform-style: preserve-3d;
   width: 0;
   height: 0;
@@ -266,19 +262,15 @@ img {
   border-width: 176px 75px 0 75px;
 }
 .side1 {
-  -webkit-transform: translatex(0) rotatey(115.2deg) rotatez(90deg);
   transform: translatex(0) rotatey(115.2deg) rotatez(90deg);
 }
 .side2 {
-  -webkit-transform: translatex(150px) rotatez(90deg) rotatex(64.8deg);
   transform: translatex(150px) rotatez(90deg) rotatex(64.8deg);
 }
 .side3 {
-  -webkit-transform: translatez(0) rotatex(64.8deg);
   transform: translatez(0) rotatex(64.8deg);
 }
 .side4 {
-  -webkit-transform: translatey(150px) rotatex(115.2deg);
   transform: translatey(150px) rotatex(115.2deg);
 }
 .side1:before {
@@ -310,7 +302,6 @@ img {
     font-size: 70%;
   }
   .stage {
-    -webkit-transform: scale(0.05);
     transform: scale(0.05);
   }
 }
@@ -333,7 +324,6 @@ img {
 }
 @media (max-width: 600px) {
   .stage {
-    -webkit-transform: scale(0.55);
     transform: scale(0.55);
     margin-right: 60px;
   }
@@ -343,7 +333,6 @@ img {
     font-size: 80%;
   }
   .stage {
-    -webkit-transform: scale(0.68);
     transform: scale(0.68);
     margin-right: 80px;
   }
@@ -360,7 +349,6 @@ img {
     margin-left: 3em;
   }
   .stage {
-    -webkit-transform: scale(0.85);
     transform: scale(0.85);
     margin-right: 120px;
   }
@@ -374,7 +362,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-top: 50px;
+  padding-top: 10px;
 }
 
 .wrapper .button {
