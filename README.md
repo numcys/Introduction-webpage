@@ -5,6 +5,18 @@
 Follow the README below to get started!
 # Introduction-webpage
 This is an introductory Web Page where i have written down about me.
+
+##How you can contribute:
+
+#Code:
+
+--> GO to ISSUES tab and contribute in any previously created issue or create a new issue.
+
+#Non-code
+
+--> You can work toward making the readme and introduction better in the repository. You can also add more data to the website or correct incorrect data.
+
+#Please star the repository if you think it is beginner friendly.
  
 * Note : Create issue first or Work on created issue
  
