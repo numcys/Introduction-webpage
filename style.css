@@ -538,4 +538,22 @@ html{
   font-size: 35px;
   color: #001a2e;
 }
+.stars {
+  height: auto;
+  color: gold;
+  text-align: center;border: 0;
+  margin: 1.35em auto;
+  max-width: 100%;
+  background-position: 50%;
+  box-sizing: border-box;
+}
+.stars:after {
+  
+  content: "★";
+  font-size: 2em;
+  text-shadow: -2em 0, -1em 0, 1em 0, 2em 0;
+  
+
+}
+
 /* Scroll to Top Button Code Ends Here */
