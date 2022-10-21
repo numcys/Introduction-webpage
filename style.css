@@ -94,8 +94,54 @@ hr{
 }
 .dropdown-link:hover{
   text-decoration: none;
-  color: white;
+   color:rgb(164, 226, 246);
+  opacity: 3;
+	-webkit-transition: -webkit-transform 0.3s, opacity 0.2s;
+	-moz-transition: -moz-transform 0.3s, opacity 0.2s;
+	transition: transform 0.3s, opacity 0.2s;
+  transform-box: 6px;
 }
+
+/*  hover effect of contibution menu item   */
+
+.dropdown-link::before,
+.dropdown-link::after {
+	display: inline-block;
+	opacity: 0;
+	-webkit-transition: -webkit-transform 0.3s, opacity 0.2s;
+	-moz-transition: -moz-transform 0.3s, opacity 0.2s;
+	transition: transform 0.3s, opacity 0.2s;
+}
+
+
+.dropdown-link::before {
+	margin-right: 10px;
+	content: '[';
+	-webkit-transform: translateX(20px);
+	-moz-transform: translateX(20px);
+	transform: translateX(20px);
+}
+
+.dropdown-link::after {
+	margin-left: 10px;
+	content: ']';
+	-webkit-transform: translateX(-20px);
+	-moz-transform: translateX(-20px);
+	transform: translateX(-20px);
+}
+
+.dropdown-link:hover::before,
+.dropdown-link:hover::after,
+.dropdown-link:focus::before,
+.dropdown-link:focus::after {
+	opacity: 1;
+	-webkit-transform: translateX(0px);
+	-moz-transform: translateX(0px);
+	transform: translateX(0px);
+}
+
+/*END      */
+
 .menu>a,.dropdown span {
   text-decoration: none;
   color: black;
@@ -492,4 +538,22 @@ html{
   font-size: 35px;
   color: #001a2e;
 }
+.stars {
+  height: auto;
+  color: gold;
+  text-align: center;border: 0;
+  margin: 1.35em auto;
+  max-width: 100%;
+  background-position: 50%;
+  box-sizing: border-box;
+}
+.stars:after {
+  
+  content: "★";
+  font-size: 2em;
+  text-shadow: -2em 0, -1em 0, 1em 0, 2em 0;
+  
+
+}
+
 /* Scroll to Top Button Code Ends Here */
