@@ -40,7 +40,7 @@ You can edit the code and Send me the PR by adding your name in the "The people 
 11. Wait for your new PR to be reviewed and merged!
 
 
-## Contributors
+## Hall of Contributors - 2023
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
