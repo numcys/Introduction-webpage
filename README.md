@@ -38,5 +38,16 @@ You can edit the code and Send me the PR by adding your name in the "The people 
 9. **Star this repo**
 10. Create a new pull request from your forked repository (Click the `New Pull Request` button located at the top of your repo)
 11. Wait for your new PR to be reviewed and merged!
- 
+
+
+## Contributors
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
 
