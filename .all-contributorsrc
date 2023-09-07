@@ -1,4 +1,21 @@
 {
   "projectName": "Introduction-webpage",
-  "projectOwner": "Naman-sharma00100"
+  "projectOwner": "Naman-sharma00100",
+  "files": [
+    "README.md"
+  ],
+  "commitType": "docs",
+  "commitConvention": "angular",
+  "contributorsPerLine": 7,
+  "contributors": [
+    {
+      "login": "Naman-sharma00100",
+      "name": "Naman Sharma",
+      "avatar_url": "https://avatars.githubusercontent.com/u/84118525?v=4",
+      "profile": "https://github.com/Naman-sharma00100",
+      "contributions": [
+        "projectManagement"
+      ]
+    }
+  ]
 }
