@@ -45,6 +45,13 @@ You can edit the code and Send me the PR by adding your name in the "The people 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
+<table>
+  <tbody>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/Naman-sharma00100"><img src="https://avatars.githubusercontent.com/u/84118525?v=4?s=100" width="100px;" alt="Naman Sharma"/><br /><sub><b>Naman Sharma</b></sub></a><br /><a href="#projectManagement-Naman-sharma00100" title="Project Management">📆</a></td>
+    </tr>
+  </tbody>
+</table>
 
 <!-- markdownlint-restore -->
 <!-- prettier-ignore-end -->
